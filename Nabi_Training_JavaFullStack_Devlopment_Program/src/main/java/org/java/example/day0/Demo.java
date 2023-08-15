@@ -9,13 +9,9 @@ public class Demo {
             System.out.println("User is eligible for voting");
         }
     }
-
     public static void main(String[] args) {
         Demo validator = new Demo();
-
         int[] ages = {16, 20, 30, 15}; // Sample ages
-
-
             for (int age : ages) {
             try {
                 System.out.println("Checking eligibility for age: " + age);
