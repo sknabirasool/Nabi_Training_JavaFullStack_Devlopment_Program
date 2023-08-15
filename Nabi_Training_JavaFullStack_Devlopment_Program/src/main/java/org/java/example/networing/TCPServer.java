@@ -1,4 +1,4 @@
-package org.java.example.day0;
+package org.java.example.networing;
 
 import java.io.*;
 import java.net.*;
