@@ -15,7 +15,8 @@ public class Demo {
 
         int[] ages = {16, 20, 30, 15}; // Sample ages
 
-        for (int age : ages) {
+
+            for (int age : ages) {
             try {
                 System.out.println("Checking eligibility for age: " + age);
                 validator.validateAge(age);
@@ -25,3 +26,4 @@ public class Demo {
         }
     }
 }
+
