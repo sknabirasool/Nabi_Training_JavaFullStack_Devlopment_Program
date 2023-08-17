@@ -12,6 +12,7 @@ public class GetDatabaseMetaData {
         String password = "";
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             DatabaseMetaData metaData = connection.getMetaData();
+
             // Display general database information
             System.out.println("Database Product Name: " + metaData.getDatabaseProductName());
             System.out.println("Database Product Version: " + metaData.getDatabaseProductVersion());
