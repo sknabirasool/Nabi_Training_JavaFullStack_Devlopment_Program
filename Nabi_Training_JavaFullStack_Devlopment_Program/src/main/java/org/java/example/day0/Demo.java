@@ -1,5 +1,4 @@
 package org.java.example.day0;
-
 public class Demo {
     // Method to validate age for voting
     public void validateAge(int age) {
