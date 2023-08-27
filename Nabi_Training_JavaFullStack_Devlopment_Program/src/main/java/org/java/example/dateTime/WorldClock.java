@@ -10,7 +10,7 @@ import java.util.TimerTask;
 
 public class WorldClock {
 
-    // List of time zones we want to display
+    // List of time zones we want to display data
     private static final List<String> TIME_ZONES = Arrays.asList(
             "UTC",
             "America/New_York",
